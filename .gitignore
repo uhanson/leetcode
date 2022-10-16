@@ -1,0 +1,9 @@
+*.d
+*.o
+*.json
+/**/target/
+*.log
+**/*.rs.bk
+/**/exec
+*sqlite3*
+/**/haskell/.stack-work/

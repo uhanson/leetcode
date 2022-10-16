@@ -1,0 +1,30 @@
+table {
+    border-spacing: 0px;
+    padding: 2px 2px 2px 0px;
+}
+td, tr {
+    padding: none;
+    border-width: 0px 1px 0px 0px;
+    border-style: solid;
+    border-color: gray;
+}
+td:first-child() {
+    border-left: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+div {
+    white-space: nowrap;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    vertical-align:top;
+}
+.node {
+    background-color: #302323;
+    text-align: center;
+    color: white;
+}
+.empty {
+    background-color: #404040;
+}
